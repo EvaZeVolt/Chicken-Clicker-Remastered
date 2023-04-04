@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import 'animate.css';
 import { AddShop } from './ui.js';
-
+import 'chicken.png';
 export default function App() {
   return (
     <div>

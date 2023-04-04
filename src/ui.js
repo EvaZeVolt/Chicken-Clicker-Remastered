@@ -1,4 +1,4 @@
-export function AddShop(Name, Price) {
+export function AddShop({ Name, Price }) {
   return (
     <div class="buyable">
       <h2>{Name}</h2>
