@@ -13,7 +13,7 @@ export default function App() {
         <br></br>
         <br></br>
         <a onClick="">
-          <img src="" />
+          <img src="/chicken.png" />
         </a>
       </div>
       <div id="border" class="center updates">
@@ -21,7 +21,10 @@ export default function App() {
       </div>
       <div id="border" class="right shop">
         <div id="contents">
-          <AddShop Name="Smasher" Pricer="900" />
+          <AddShop Name="Smasher" Price="90" />
+          <AddShop Name="Smasher" Price="90" />
+          <AddShop Name="Smasher" Price="90" />
+          <AddShop Name="Smasher" Price="90" />
         </div>
       </div>
     </div>

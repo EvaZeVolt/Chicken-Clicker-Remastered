@@ -8,12 +8,12 @@ p {
   margin: 0;
   left: 0;
   overflow-y: hidden;
-  
 }
-h1,h2,h3{
-  pointer-events:none;
+h1,
+h2,
+h3 {
+  pointer-events: none;
 }
-
 
 body {
   background-color: darkslategray;
@@ -87,20 +87,20 @@ body {
   text-align: left;
 }
 .shop #contents :hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(100, 50, 50, 0.8);
 }
 .shop #contents .buyable h2 {
   text-align: left;
   top: 0%;
   left: 0.5em;
   position: relative;
-  font-size: 4em;
+  font-size: 3em;
   display: inline-block;
 }
 .shop #contents .buyable h3 {
   text-align: left;
 
-  left: 65%;
+  left: 50%;
   position: relative;
   font-size: 4em;
   display: inline-block;
