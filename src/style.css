@@ -1,0 +1,107 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  margin: 0;
+  left: 0;
+  overflow-y: hidden;
+  
+}
+h1,h2,h3{
+  pointer-events:none;
+}
+
+
+body {
+  background-color: darkslategray;
+  color: white;
+}
+
+#border {
+  border-radius: 10px;
+
+  border-color: red;
+}
+
+.center {
+  text-align: center;
+  align-content: center;
+}
+.action {
+  width: 35%;
+  height: 99vh;
+  border-radius: 2px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+}
+.action h1 {
+  font-size: 4em;
+}
+
+.right {
+  align-content: right;
+  right: 90vh;
+  position: relative;
+  text-align: center;
+}
+
+.updates {
+  width: 23.6%;
+  height: 99vh;
+  border-radius: 2px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+}
+.shop {
+  width: 40%;
+  height: 99vh;
+  border-radius: 2px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+}
+.shop button {
+  width: 100%;
+
+  text-align: left;
+  font-size: 3em;
+}
+.shop button h1 {
+  font-size: 2em;
+}
+
+.shop #contents .buyable {
+  width: 100%;
+  height: 6em;
+  background-color: rgba(100, 50, 50, 255);
+
+  text-align: left;
+}
+.shop #contents :hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.shop #contents .buyable h2 {
+  text-align: left;
+  top: 0%;
+  left: 0.5em;
+  position: relative;
+  font-size: 4em;
+  display: inline-block;
+}
+.shop #contents .buyable h3 {
+  text-align: left;
+
+  left: 65%;
+  position: relative;
+  font-size: 4em;
+  display: inline-block;
+}
