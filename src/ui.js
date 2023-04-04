@@ -1,3 +1,5 @@
+import React from 'react';
+
 export function AddShop({ Name, Price }) {
   return (
     <div class="buyable">
