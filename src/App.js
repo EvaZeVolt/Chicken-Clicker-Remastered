@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import 'animate.css';
 import { AddShop } from './ui.js';
-import 'chicken.png';
+import chick from './chicken.png';
 export default function App() {
   return (
     <div>
@@ -13,7 +13,7 @@ export default function App() {
         <br></br>
         <br></br>
         <a onClick={giveEggs}>
-          <img src="chicken.png" />
+          <img src={chick} />
         </a>
       </div>
       <div id="border" class="center updates">
